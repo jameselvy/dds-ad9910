@@ -1,10 +1,12 @@
 
-# dds-ad9910
+# dds-ad9910 
+
+## Quick Start
 
 This is a Python program that enables a user to control the [dds-ad9910 board](http://www.gempillar.com/dds-ad9910.html) that I built from a graphical user interface via USB. 
 
 
-## Dependencies
+### Dependencies
 
 On newer Debian based systems the only dependency that is not installed by default is normally just python-gnome2 (which will give you the gnomevfs module).
 
