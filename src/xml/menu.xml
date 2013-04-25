@@ -1,0 +1,25 @@
+<ui>
+  <menubar name="MenuBar">
+    <menu action="File">
+      <menuitem action="New File"/>
+      <menuitem action="Open File"/>
+      <menuitem action="Close File"/>
+      <separator/>
+      <menuitem action="Exit"/>
+    </menu>
+    <menu action="I/O">
+    </menu>
+    <menu action="View">
+      <menuitem action="Control Window"/>
+      <menuitem action="Profile Window"/>
+      <menuitem action="QSK Digital Ramp Control Window"/>
+      <menuitem action="RAM Input-Output Window"/>
+      <menuitem action="Register Map Values Window"/>
+      <separator/>
+      <menuitem action="Debug Window"/>
+    </menu>
+    <menu action="Help">
+      <menuitem action="About"/>
+    </menu>
+  </menubar>
+</ui>

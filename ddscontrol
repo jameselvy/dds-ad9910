@@ -1,0 +1,17 @@
+#! /usr/bin/env python
+
+##@package src.ddscontrol
+#Top Level entry point for DDS AD9910
+#@author Newell Jensen
+
+import gtk, pygtk, gobject
+from src.mainwindow import mainwindow
+
+def main():
+    """ Function starts the main loop for gtk. """
+    gtk.main()
+
+if __name__ == "__main__":
+    window = mainwindow()            
+    main()
+    
