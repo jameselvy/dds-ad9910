@@ -4,11 +4,6 @@
 
 import gtk, shutil, sys, gnomevfs
 
-######################################################
-# Callback Methods
-######################################################
-
-
 def cb_enable_multiplier(menuitem, mw):
 
     if menuitem.get_active():
@@ -36,26 +31,32 @@ def cb_internal_io_update_changed(menuitem, mw):
 
 
 def cb_open_control_window(menuitem, mw):
+    # TODO
     pass
 
 
 def cb_open_profile_window(menuitem, mw):
+    # TODO
     pass
 
 
 def cb_open_qsk_window(menuitem, mw):
+    # TODO
     pass
 
 
 def cb_open_ram_window(menuitem, mw):
+    # TODO
     pass
 
 
 def cb_open_register_window(menuitem, mw):
+    # TODO
     pass
 
 
 def cb_open_debug_window(menuitem, mw):
+    # TODO
     pass
 
 
@@ -65,9 +66,6 @@ def cb_pll_button_pushed(menuitem, mw, status_bar):
     # Also need a global callback polling function that polls the pin
     # to let us know what the status of the PLL_LOCKED pin is
     status_bar.push(mw, 'Locked')
-
-
-
 
 
 def cb_multi_spin(menuitem, mw, sysclk):
@@ -91,14 +89,17 @@ def cb_pulse_width(menuitem, mw, sysclk):
         
 
 def cb_ioupdate(menuitem, mw):
+    # TODO
     pass
 
 
 def cb_load(menuitem, mw):
+    # TODO
     pass
 
 
 def cb_ext_pwr_pin_toggled(menuitem, mw):
+    # TODO
     pass
 
 
@@ -112,10 +113,12 @@ def cb_profile_window_notebook(ram_button, ram_notebook, profile_notebook, profi
 
 
 def cb_enable_RAM(menuitem, mw):
+    # TODO
     pass
 
 
 def cb_load_RAM(menuitem, mw):
+    # TODO
     pass
 
 
@@ -151,6 +154,7 @@ def cb_new_file(menuitem, mw):
     @param menuitem menuitem that threw the event
     @param mw current mw instance
     """
+    # TODO
     pass
 
 
@@ -160,6 +164,7 @@ def cb_open_file(menuitem, mw):
     @param menuitem menuitem that threw the event
     @param mw current mw instance
     """
+    # TODO
     pass
 
 
@@ -170,6 +175,7 @@ def cb_close_file(menuitem, mw):
     @param mw Mw object
     @param mw current mw instance
     """
+    # TODO
     pass
 
 

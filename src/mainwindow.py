@@ -26,10 +26,6 @@ class mainwindow(gtk.Window):
         self.show_all()
 
 
-    #####################################################
-    # Initializer Methods -- methods to create the window
-    #####################################################
-
     def __init_menus__(self):
         """ Method to create the menu bar. """
 
@@ -1827,7 +1823,6 @@ class mainwindow(gtk.Window):
         enable_multi_frame.set_sensitive(False)
         internal_io_frame.set_sensitive(False)
 
-
         ## Callbacks
         enable_multiplier_button.connect('clicked', cb_enable_multiplier, (self.sysclk, sysclk_display, multiplier_spin, enable_multi_frame))
         multiplier_spin.connect('value-changed', cb_multiplier_changed, (self.sysclk, sysclk_display))
@@ -1838,18 +1833,6 @@ class mainwindow(gtk.Window):
         enable_RAM_button.connect('clicked', cb_profile_window_notebook, ram_notebook, profile_notebook, profile_vbox)
         ## load_RAM_button.connect('clicked', cb_load_RAM, self)        
         ## load_RAM_FILE_button.connect('clicked', cb_load_RAM_file, self)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     def __init_about_dialog__(self):
